@@ -1,5 +1,3 @@
 # Homeservehub
-a website to serve home..
-# anu kumari
-anu
-# name
+a website to serve home.
+
