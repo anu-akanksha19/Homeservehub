@@ -4,6 +4,7 @@
       /*box-sizing:border-box;*/
       font-family:sans-serif;
 }
+
 .HomeServeHub-header{
   background-color: black;
   color: white;
@@ -38,6 +39,10 @@
     background-repeat: no-repeat
     
 }
+
+  
+
+
 
 .content{
   height:100%;
@@ -446,7 +451,11 @@ h1 i{
 .main6{
   background-color: antiquewhite;
   height:80%;
+  width:100%;
+  max-width:1200px;
+  margin:auto;
   padding:1.5rem;
+  box-sizing: border-box;
   padding-left: 2rem;
   padding-right: 2rem;
   position:relative;
@@ -677,3 +686,105 @@ h2{
 .footer-aboutsection-content{
   width: 25%;
 }
+@media (max-width:800px){
+  body{
+    overflow-x: hidden;
+  }
+  .main{
+    flex-wrap:wrap;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+  }
+  .content{
+  
+    padding:4rem 1.5rem;
+    max-width:100%;
+  }
+  .form{
+    margin: 2rem 0;
+    max-width:90%;
+    top:0;
+  }
+  input{
+    min-width:100%;
+  }
+  #btn3{
+    right:23%;
+    transform:translate(-50%);
+  }
+  #btn4{
+    right:23%;
+    transform:translate(-50%);
+  }
+  .flex ,.flexa{
+    flex-wrap:wrap;
+    flex-direction:column;
+    gap:1.5rem;
+  }
+  .flex1,.flex-2,.flex-3,.flex4{
+    min-width:600px;
+  }
+    
+  #icons{
+        left: 50%;
+        transform:translateX(50%)
+
+  }
+  .flex2{
+        grid-template-columns: repeat(1,1fr);
+
+  }
+  .main4, content-flex{
+        flex-wrap:wrap;
+       flex-direction: column;
+       text-align:center;
+  }
+  
+  .photo img, .photo2 img{
+    min-width:100%;
+    min-height: auto;
+  }
+  .content2,.flex-item2{
+    max-width:100%;
+  }
+  .icons2{
+    left:0;
+    margin:auto;
+  }
+  .cons{
+    display: none;
+  }
+  .main6 .con{
+    left:0;
+    margin:auto;
+  }
+  .flex-4{
+        flex-direction:column;
+        left: 0;
+        width: 100%;
+        gap: 2rem;
+  }
+  .circle,.btn6,.btn7{
+    left: 0;
+    margin: auto;
+  }
+  .circle {
+    margin-bottom: 1.75rem;
+  }
+  #para{
+    text-align: center;
+  }
+  #h1{
+    padding-left: 0;
+    text-align:center;
+  }
+  #h2{
+    position:relative;
+    top:4rem;
+    right:3rem;
+  }
+
+        
+
+  }
